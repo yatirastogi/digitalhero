@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tt.css">
+    <link rel="stylesheet" href="time.css">
+    <style>
+
+@media only screen and (max-width:460px)  {
+    .btn-grad
+    {display: none !important;}
+}
+
+
+.h3 {
+    margin-top: 0.66em;
+    margin-bottom: 0px;
+    margin-left: 0.8em;
+    padding-left: 0px;
+    font-family: kallisto, sans-serif;
+    color: #fff;
+    font-size: 1.88em;
+    line-height: 1.19;
+    font-weight: 800;
+}
+.body-text {
+    margin: 1.56em;
+    padding-right: 0px;
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.39;
+    font-weight: 400;
+}
+.metsspace-block {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 1.3em;
+    background-color: hsla(0, 0%, 100%, 0);
+
+    background-image: linear-gradient(180deg, #374058, #232c43);
+ 
+    transition: all 200ms ease;
+}
+@media screen and (max-width:479px) {
+    .metsspace-block{
+        margin-bottom: 5%;
+    }
+}
+.metsspace-block:hover{
+    background-image: linear-gradient(90deg, #4b84ef, #fa11ac);
+            background-position: right center; /* change the direction of the change here */
+            text-decoration: none;
+
+}
+@media screen and (max-width:479px) {
+.w-layout-grid{
+    display: block!important;
+}
+
+}
+@media screen and (max-width:479px) {
+.navbar-brand{
+   width:50px;
+}
+
+}
+
+
+.metaspace-grid{
+    grid-column-gap: 4.74em;
+  
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    grid-template-rows: auto;
+}
+.w-layout-grid
+{
+    display: grid;
+    grid-auto-columns: 1fr;
+    
+    grid-row-gap: 16px;
+    
+}
+@media screen and (max-width: 479px){
+.heading-5.clipped {
+    display: none;
+}}
+.heading-5.clipped {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 2em;
+    background-image: linear-gradient(90deg, #fff, #fff);
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+@media screen and (max-width: 479px){
+.tokenomics-distribution {
+    max-width: 80vw;
+    margin-top: -0.1em;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+}}
+.tokenomics-distribution {
+    display: grid;
+    margin-top: 1.3em;
+    margin-bottom: 2.5em;
+    justify-items: start;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+        body{
+            background-color: #0a1533!important;
+            position: relative; 
+        }
+        a{
+            color: white !important;
+        }
+        a:hover{
+            text-decoration: none!important;
+        }
+        .navbar a:hover{
+            margin-left: 0.8em;
+    padding: 0.68em 1.46em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 0.89em;
+    background-color: rgba(56, 152, 236, 0);
+    font-family: poppins, sans-serif;
+    font-size: 1.04em;
+    font-weight: 600;
+
+        }
+
+        hero-top-subheading .clipped {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+.clipped {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #4b84ef, #fa11ac);
+}
+        .hero-top-subheading {
+            margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+   
+    color: #fff;
+    font-size: 1.506em;
+    line-height: 1.17;
+        }
+        @media screen and (max-width: 479px){
+.heading {
+    font-size: 11vw;
+    text-align: left;
+}}
+
+        .heading {
+    margin-top: 0.12em;
+    margin-bottom: 10px;
+    font-family: kallisto, sans-serif;
+    color: #fff;
+    font-size: 4.16rem;
+    line-height: 0.97;
+    font-weight: 800;
+}
+.h2{
+    margin-top: 0px;
+    margin-bottom: 2.4em;
+    font-family: kallisto, sans-serif;
+    color: #fff;
+    font-size: 3.13em;
+    line-height: 1;
+    font-weight: 800;
+    text-align: center;
+
+}
+@media screen and (max-width: 479px){
+.token {
+    max-width: 79em;
+    padding-bottom: 30em;
+}}
+.token {
+    display: block;
+    max-width: 67.5em;
+    margin-top: 0em;
+    margin-bottom: 9.9em;
+}
+@media screen and (max-width: 479px){
+.tokenomics-properties {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}}
+.tokenomics-properties {
+    margin-top: 0em;
+    padding-top: 0em;
+    grid-column-gap: 5.31em;
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+     .vr{
+         width:22em;
+       animation-name: imgmove;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+         
+
+     }
+     @keyframes imgmove {
+        0%   {padding-top:0%;}
+        50%{padding-top:1%;}
+        100%{padding-top:2%;}
+
+     }
+         .btn-grad {
+             background-color: transparent;
+            margin: 10px;
+            padding: 15px 25px;
+            text-align: center;
+            text-transform: uppercase;
+           
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 20px;
+            border-color: white;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-image: linear-gradient(90deg, #4b84ef, #fa11ac);
+            background-position: right center; /* change the direction of the change here */
+            text-decoration: none;
+          }
+         .para{    margin-top: 1.56em;
+    margin-bottom: 0px;
+    padding-right: 5.21em;
+    padding-left: 0px;
+    font-family: poppins, sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 1.3em;
+    line-height: 1.2;
+    font-weight: 500;}
+    .telegram{
+       width: 30%;
+    padding-right: 0.21em;
+    }
+
+    .paragraph-3 {
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.39;
+}
+.paragraph-2 {
+    margin-bottom: 0px;
+    padding: 1.3em;
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    /* line-height: 1.39; */
+}
+
+
+
+
+
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:1;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:5rem;
+ 
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:10%;
+  opacity:1;
+  font-size:1.4rem;
+  margin-bottom:0;
+}
+.heading-4 {
+    margin-top: 0px;
+    margin-bottom: 0.55em;
+    font-family: kallisto, sans-serif;
+    color: #fff;
+    font-size: 2.13em;
+    line-height: 1;
+    font-weight: 800;
+}
+.link-13{
+    color: hsla(0, 0%, 100%, 0.3);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  .footer{
+    padding-top: 19.14em;
+    background-image: linear-gradient(180deg, #0a1533, #000);
+  } 
+  @media only screen and (max-width: 720px) {
+.grid-2 {
+    display: block!important;
+   
+}}
+  
+ .grid-2 {
+    grid-column-gap: 1.88em;
+    grid-row-gap: 1.88em;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.growth-box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 1.3em;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#374058), to(#232c43));
+    background-image: linear-gradient(180deg, #374058, #232c43);
+}
+
+
+.accordion-item---brix {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 29px;
+    padding: 1.6em 2.48em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e0e0e0;
+    border-radius: 50px;
+    background-color: #e5f3ff;
+    background-image: linear-gradient(
+138deg
+, #374058, #232c43);
+    cursor: pointer;}
+
+  
+  
+    .accordion-item-title---brix-3 {
+    font-family: poppins, sans-serif!important;
+    color: #fff;
+    font-size: 1.02em!important;
+    line-height: 28px!important;
+    font-weight: 800!important;
+    text-transform: uppercase!important;
+}
+
+@media only screen and (max-width:460px) {
+    .accordion-paragraph---brix-3 { 
+        font-size: 3.3vw!important;
+    }
+    
+}
+.accordion-paragraph---brix-3 {
+    width: 100%;
+    max-width: 90%;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-size: 1.3vw;
+    line-height: 1.3;
+}
+
+
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+@media only screen and (max-width:460px){
+    .panel-heading  a:before { 
+        display: none;
+    }   
+    
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: ">";
+   font-size: 25px;
+   float: right;
+   font-weight: 1000;
+   transition: all 0.5s;
+width:1%;
+height:100%;
+padding:0% 2%;
+
+    min-height: 2px;
+    border-radius: 50%;
+    background-color: white;
+    color: #4a3aff;
+    
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+    color:white;
+    background-color: #4a3aff;
+
+}
+
+  </style>
+	<title>Meta Gaming</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        
+	</script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+</head>
+
+<body data-spy="scroll" data-target="#gg" data-offset="100" >
+	
+	<div style="padding: 0% 10%;"class="container-fluid">
+    <nav style="font-weight: 1000;" class="navbar navbar-expand-lg " >
+            <img class="navbar-brand" width="5%"href="#" src="logo.png"></img>
+            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span style="background-color: white !important;" class="navbar-toggler-icon">=</span>
+            </button>
+        
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+
+                <ul class="navbar navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#token">Tokenomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Growth</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Roadmap</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BUY $Tokenomics</a>
+                      </li>
+                  </ul>
+
+
+            
+              
+            </div>
+          </nav>	
+</div>
+
+
+
+
+
+<DIV style="margin-bottom:2%;padding:7% 1%;background-image: url('bg1.png');background-size: cover;">
+<div class="container" style="padding: 0% 2%;">
+    <div class="row">
+        <div data-aos="fade-right"class="col-md-7">
+           <h1 class="hero-top-subheading clipped">Build on BSC. Powered By You.</h1>
+           <h1 class="heading">The Future of
+               
+            <span class="clipped">Gaming</span> is HERE</h1>
+
+            <div id="js-clock" data-w-id="7c786f29-b7fb-6ae1-750f-d77d060a9615" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="js-clock"><div id="w-node-_7c786f29-b7fb-6ae1-750f-d77d060a9616-c8b88d2a" class="box"><div id="js-clock-days" class="clock-number">07</div><div class="clock-label">Days</div></div><div id="w-node-_7c786f29-b7fb-6ae1-750f-d77d060a961b-c8b88d2a" class="box"><div id="js-clock-hours" class="clock-number">23</div><div class="clock-label">Hrs</div></div><div id="w-node-_7c786f29-b7fb-6ae1-750f-d77d060a9620-c8b88d2a" class="box"><div id="js-clock-minutes" class="clock-number">07</div><div class="clock-label">Min</div></div><div id="w-node-_7c786f29-b7fb-6ae1-750f-d77d060a9625-c8b88d2a" class="box"><div id="js-clock-seconds" class="clock-number">03</div><div class="clock-label">Sec</div></div></div>
+
+            <p class="para" >We combine blockchain and gaming to create a fun and rewarding gaming experience in the form of a decentralized application.</p>
+      <div style="margin-top: 5%;">  
+<button style="display:inline" class="btn-grad ">BUY NOW</button>
+    <button style="display:inline"class="btn-grad">START GAMING</button>
+    <button style="display:inline;width:12%;padding:3%;border-radius: 50%;" class="btn-grad "><img class="sendbtn"src="send.png" loading="lazy" alt="" style="width: 2rem;margin-right:5% ;"></button>
+    </div>
+        </div>
+        <div data-aos="fade-left" class="col-md-4">
+            <img class="vr" src="vr.png"/>
+        </div>
+    </div>
+</div>
+
+</DIV>
+
+
+ <div style="padding: 0% 15%;margin-top:10%;"  id="why">
+    <h1 style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="h2">Why $Meta<span class="clipped">Space</span></h1>
+
+
+    <div style="margin-top: 5%;"class="w-layout-grid metaspace-grid">
+        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" class="metsspace-block">
+        <h1 class="h3">Anti-Whale</h1>
+        <p class="body-text">All holders of MetaSpace will be protected from dumping &amp; whales coming into the project attempting to own too large of a supply. We only want to attract firm believers in the project and steadily grow.</p></div>
+        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" class="metsspace-block">
+            <h1 class="h3">Marketing</h1><p class="body-text">The Space Invaders team is filled with well versed marketers that have worked on some of the largest projects in the BSC space. We're growing MetaSpace across all social media platforms.</p></div>
+            <div  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" class="metsspace-block">
+                <h1 class="h3">Gaming</h1><p class="body-text">Play to earn gaming is the future and MetaSpace is striving to be a part of that future. We want to be a player in this new direction gaming is headed and that's why we have a team of 5 game developers.</p>
+            </div></div>
+
+
+
+</div> 
+
+
+
+
+
+
+<div data-aos="fade-up" style="padding: 0% 15%;margin-top: 10%;"id="token">
+    <h1 class="h2" style="margin-bottom: 6%;">MetaSpace <span class="clipped">Tokenomics</span></h1>
+
+    <div class="w-layout tokenomics-properties"><div  class="tokenomics-distribution">
+      <h1 class="heading-5 clipped">15% <br>Buy Tax</h1><h1 class="heading-5 clipped">15%<br>Sell Tax</h1>
+        <h1 class="heading-5 clipped">6.5%<br>Buy Back</h1><h1 class="heading-5 clipped">4%<br>Marketing</h1>
+            <h1 class="heading-5 clipped">3%<br>Development</h1><h1 class="heading-5 clipped">1.5%<br>Gaming Rewards</h1> 
+        </div><br>
+        <div class="w-layout-grid tokenomics-properties">
+        <div class=" tokenomics-properties">
+            <h1 class="token-properties clipped">Buy Back</h1>
+            <p class="paragraph-3">A % of the tokenomics will be going to the buyback feature which the team will use to strategically pump or stabilize the chart when necessary.</p></div>
+            <div class="tokenomics-block"><h1 class="token-properties clipped">Deflationary</h1><p class="paragraph-3">1% of total supply burned every week to decrease the size of the circulating supply and to help PUMP the chart. Long term holders will be incentivized to hold.</p>
+            </div><div class="tokenomics-block"><h1 class="token-properties clipped">Play To Earn</h1><p class="paragraph-3">Holders of $MSPACE will be able to utilize their $MSPACE tokens to play our fun space invaders beta game! The gamer can either win or lose tokens based on skill level.</p></div>
+            <div class="tokenomics-block"><h1 class="token-properties clipped">Burns</h1><p class="paragraph-3">A portion of the tokens lost from the game will go into burn wallet &amp; the other portion will go towards future features for the project.</p></div></div>
+
+
+
+        </div>
+
+</div>
+
+
+    <div data-aos="fade-up" id="growth" style="padding: 0% 2%;margin-top:10%;" class="container">
+
+<div class="w-layout-grid grid-2">
+    <div class="growth-box _1" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">2% of tokens to be burnt in the first 36 hours to increase the value of the remaining tokens in circulation.</p>
+    </div>
+    <div class="growth-box _2" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">Coinmarketcap and CoinGecko fast tracking to display the latest and most accurate price.</p>
+    </div>
+    <div class="growth-box _3" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">Chinese marketing campaign to reach an "unreachable" audience. No one is doing this.</p>
+    </div><div class="growth-box _4" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">Worldwide campaign to light fires in the world of crypto and gaming with a professional marketing team.</p>
+    </div><div class="growth-box _5" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">Investments into billboards in major cities. This has worked in the past and will keep on working.</p>
+    </div><div class="growth-box _6" style="will-change: opacity; opacity: 1;">
+        <p class="paragraph-2">Crypto telegram &amp; discord shill group blasts are how we'll reach millions of targeted potential investors.</p>
+    </div><div class="growth-box _7" style="will-change: opacity; opacity: 0.15;">
+        <p class="paragraph-2">2% of tokens will burn periodically to increase the value of the remaining tokens in circulation.</p>
+    </div><div class="growth-box _8" style="will-change: opacity; opacity: 0.15;">
+        <p class="paragraph-2">10,000,000 Dms sent in 10 days. A process we like to call mass dm-ing. Highly effective for marketing!</p></div>
+        <div class="growth-box _9" style="will-change: opacity; opacity: 0.15;">
+            <p class="paragraph-2">AMA’s with large influencers to establish ourselves in the crypto community and earn trust.</p></div>
+            <div id="w-node-_7c6f0902-2980-fcba-72a6-ac8de8d6058c-c8b88d2a" class="growth-box _10" style="will-change: opacity; opacity: 0.15;">
+                <p class="paragraph-2">We're going to be partnering with some of the biggest influencers on Instagram and Twitter.</p></div>
+                <div class="growth-box _11" style="will-change: opacity; opacity: 0.15;">
+                    <p class="paragraph-2">50k+ starting budget will be allocated towards marketing efforts on social media and in real life.</p>
+                </div><div class="growth-box _12" style="will-change: opacity; opacity: 0.15;">
+                    <p class="paragraph-2">European Crypto Networks to light fires in the world of crypto and gaming with a professional marketing team.</p></div></div>
+
+</div>
+
+</div>
+<div data-aos="fade-up" style="padding: 0% 2%;margin-top:10%;" class="container">
+    
+<div class="wrapper center-block">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading"  role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" class="accordion-item---brix accordion-item-title---brix-3" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            How can i play metaspace     
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body accordion-item---brix">
+            <p class="accordion-paragraph---brix-3">Users will be able to play Meta Space once the game plug-in has been launched. &nbsp;</p>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading " role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="accordion-item---brix  accordion-item-title---brix-3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            how can i buy metaspace?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body accordion-item---brix">
+            <p class="accordion-paragraph---brix-3">Investors will be able to buy by utilizing poocoin.app &amp; pancakeswap v2. Investors will need to utilize the verified contract from our website or the contract that is tagged for our members in telegram.&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="accordion-item---brix  accordion-item-title---brix-3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Why invest into metaspace?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body accordion-item---brix">
+            <p class="accordion-paragraph---brix-3">Meta space is the first ever deflationary BSC play to earn game that has goals to become one of the largest pay to play &amp; earn tokens on the market. Our fun interactive game &amp; future marketing plans make this coin the next gem in the BSC space.&nbsp;</p></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading " role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" class="accordion-item---brix  accordion-item-title---brix-3" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                how do game rewards work?   
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body accordion-item---brix">
+            <p class="accordion-paragraph---brix-3">There will be a jackpot reward at the end of each day's gaming session, the user who scores the highest score on the leaderboard will be airdropped the jackpot's valuation in $MSPACE tokens.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<h1 style="opacity: 1;margin-bottom: 6%;" class="h2">Project <span class="clipped">Roadmap</span></h1>
+<div class="timeline_wrapper-2">
+    <div class="timeline_progress-2">
+        
+    </div><div class="timeline_item-2">
+        <div id="w-node-_027ad73a-f5b6-14a7-5632-530a380fb751-c8b88d2a" class="timeline_left" style="will-change: opacity; opacity: 1;"><div class="div-block-149">
+            <div class="timeline_date-text-2">Q1 2022</div><div class="div-block-147"><div class="text-block-3">$25,000,000 MC</div>
+        </div></div></div><div id="w-node-_027ad73a-f5b6-14a7-5632-530a380fb754-c8b88d2a" class="timeline_centre">
+            <div class="timeline_circle" style="will-change: background; background-color: rgb(255, 255, 255);"></div>
+        </div><div id="w-node-_027ad73a-f5b6-14a7-5632-530a380fb756-c8b88d2a" class="timeline_right" style="will-change: opacity; opacity: 1;">
+            <div class="margin-bottom-xlarge"><div class="timeline_text">3000 holders</div></div>
+            <div class="div-block-161"><div class="text-block-4">game release (jan 2022)</div></div>
+            <div class="div-block-148"><div class="div-block-151"><div class="text-block-6"><span class="text-span">10 Million </span>
+                <br>worldwide outreach</div><div class="text-block-8">8,000 game entries</div></div><div class="div-block-150">
+                    <div class="text-block-7">crypto telegram<br>&amp; discord shill<br>group blast</div></div>
+                </div><div><div class="text-block-21">Streamer influencer<br>Partnerships launched</div>
+            </div></div></div><div data-w-id="027ad73a-f5b6-14a7-5632-530a380fb75c" class="timeline_item-2">
+                <div id="w-node-_027ad73a-f5b6-14a7-5632-530a380fb75d-c8b88d2a" class="timeline_left" style="will-change: opacity; opacity: 1;">
+                    <div class="div-block-158"><div class="timeline_date-text-2">Q2 2022</div>
+                    <div class="div-block-147"><div class="text-block-3">$100,000,000 MC</div>
+                </div></div></div><div id="w-node-_027ad73a-f5b6-14a7-5632-530a380fb760-c8b88d2a" class="timeline_centre">
+                    <div class="timeline_circle" style="will-change: background; background-color: rgb(65, 65, 65);"></div>
+                </div><div class="timeline_right" style="will-change: opacity; opacity: 1;"><div class="margin-bottom-medium">
+                    <div class="timeline_text">10000 holders<br></div></div><div class="div-block-160"><div class="text-block-4">
+                        Meta verse integration</div></div><div class="div-block-152">
+                            <div class="div-block-162"><div class="text-block-9">Billboard in NYC</div>
+                            <div class="text-block-22">Acquiring sandbox real estate</div></div><div class="text-block-10 _2">250,000 game<br>entries
+                            </div></div><div class="div-block-160"><div class="text-block-4 _2">International gaming <br>Tournament sponsorships</div></div>
+                            <div class="div-block-153"><div class="text-block-11">Meta space arcade launch<br></div></div></div>
+                        </div><div data-w-id="027ad73a-f5b6-14a7-5632-530a380fb76f" class="timeline_item-2"><div  class="timeline_left" style="will-change: opacity; opacity: 1;">
+                            <div class="div-block-157"><div class="timeline_date-text-2">Q3 2022</div><div class="div-block-147">
+                                <div class="text-block-3">$500,000,000 MC</div></div></div></div><div class="timeline_centre">
+                                    <div class="timeline_circle" style="will-change: background; background-color: rgb(65, 65, 65);"></div></div>
+                                    <div class="timeline_right" style="will-change: opacity; opacity: 1;"><div class="margin-bottom-medium">
+                                        <div class="timeline_text">50000 holders<br></div></div><div class="div-block-160"><div class="text-block-4">
+                                            New metaspace venue <br>added to metaverse</div></div><div class="div-block-153"><div class="text-block-11">
+                                                First $250,000 streaming tournament hosted in<br>metaverse&nbsp;<br></div></div><div><div class="text-block-15">
+                                                    2,500,000 game entries</div></div></div></div><div data-w-id="027ad73a-f5b6-14a7-5632-530a380fb789" class="timeline_item-2">
+                                                        <div class="timeline_left" style="will-change: opacity; opacity: 1;">
+                                                            <div class="div-block-159"><div class="timeline_date-text-2">Q4 2022</div>
+                                                            <div class="div-block-147"><div class="text-block-3">$1,500,000,000 MC</div>
+                                                        </div></div></div><div class="timeline_centre">
+                                                            <div class="timeline_circle" style="will-change: background; background-color: rgb(65, 65, 65);"></div>
+                                                        </div><div class="timeline_right" style="will-change: opacity; opacity: 1;">
+                                                            <div class="margin-bottom-medium"><div class="timeline_text">250000 holders<br>
+                                                            </div></div><div class="div-block-160"><div class="text-block-4">Multi verse integration</div>
+                                                        </div><div class="div-block-155"><div class="text-block-16"><span class="text-span-8">Top 10 </span>
+                                                            <br>Coin Partnerships</div><div class="div-block-163"><div class="text-block-23">10,000,000 game entries</div>
+                                                            <div class="text-block-24">Meta space gaming team <br>launch</div></div></div><div class="div-block-153 nft">
+                                                                <div class="text-block-11 nft">NFT&nbsp;LAUNCH<br></div></div></div></div>
+                                                                <div data-w-id="ce2a2904-464c-eb92-008a-541081991105" class="timeline_item-2">
+                                                                    <div id="w-node-ce2a2904-464c-eb92-008a-541081991106-c8b88d2a" class="timeline_left" style="will-change: opacity; opacity: 1;">
+                                                                        <div class="div-block-157"><div class="timeline_date-text-2">Into The Future</div><div class="div-block-147">
+                                                                            <div class="text-block-3">Limitless MC</div></div></div></div>
+                                                                            <div id="w-node-ce2a2904-464c-eb92-008a-54108199110d-c8b88d2a" class="timeline_centre">
+                                                                                <div class="timeline_circle" style="will-change: background; background-color: rgb(65, 65, 65);"></div>
+                                                                            </div><div class="timeline_right" style="will-change: opacity; opacity: 1;"><div class="margin-bottom-medium">
+                                                                                <div class="timeline_text w2 _4">2023 Revamp<br></div></div><div class="div-block-160">
+                                                                                    <div class="text-block-4 _4 final">Crypto casino integration&nbsp;</div>
+                                                                                                                                                  </div><div><div class="text-block-15">Arcade staking rewards</div></div></div></div></div>
+
+
+
+
+
+</div>
+
+<div class="footer footer-dark">
+    <footer style="padding: 0% 15%;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h1 class="heading-4">Project</h1>
+                    <ul>
+                        <li><a class="link-13" href="#">About</a></li>
+                        <li><a class="link-13"href="#">Tokenomics</a></li>
+                        <li><a class="link-13" href="#">Marketing</a></li>
+                        <li><a class="link-13"href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h1 class="heading-4">Socials</h1>
+                     <ul>
+                        <li><a class="link-13" href="#">Telegram</a></li>
+                        <li><a class="link-13" href="#">Instagram</a></li>
+                        <li><a class="link-13" href="#">Twitter</a></li>
+                        <li><a class="link-13" href="#">Discord</a></li>
+                    </ul>
+                </div>
+                <div style="padding-left: 15%;"class="col-md-3 item text">
+
+                    <img src="footpic.png">
+                    <!-- <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p> -->
+                </div>
+            </div>
+            <p class="copyright">Design And Development By <b class="clipped">Zzz Media</b></p>
+        </div>
+    </footer>
+</div>
+</body>
+<script>
+     $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+  });
+
+  $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+  });
+  AOS.init();
+  
+  function addz(n)
+        {
+            return '0'+n;
+
+        }
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 24, 2022 14:28:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          if (days<10) days=addz(days);
+          if (seconds<10) seconds=addz(seconds);
+          if (hours<10) hours=addz(hours);
+          if (minutes<10) minutes=addz(minutes);
+            
+          // Output the result in an element with id="demo"
+          document.getElementById("js-clock-seconds").innerHTML = seconds;
+          document.getElementById("js-clock-hours").innerHTML = hours;
+          document.getElementById("js-clock-minutes").innerHTML = minutes;
+          document.getElementById("js-clock-days").innerHTML = days;
+        })
+        
+</script>
+
+</html>				
